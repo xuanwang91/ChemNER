@@ -1,7 +1,7 @@
 # ChemNER: Fine-Grained Chemistry Named Entity Recognition with Ontology-Guided Distant Supervision
 
 ## Code
-The code for distant supervision generation is in ```corpus.ipynb```. The next step is to train a sequence labeling model (Bi-LSTM, RoBERTa, ChemBERTa, ...) based on distant supervision.
+The code for distant supervision generation is in ```corpus.ipynb```. The next step is to train a standard sequence labeling model (Bi-LSTM, RoBERTa, ChemBERTa, ...) based on distant supervision.
 
 ## Data
 The data is in the folder ```/data```. The training data is too big to be uploaded and can be found here: [CHEM_train.json](https://virginiatech-my.sharepoint.com/personal/xuanw_vt_edu/_layouts/15/download.aspx?UniqueId=eff0d607e51041b78813c8d3b06683a3&e=jNf2Hi). The human-annotated test data is in ```/data/CHEM_test_annotations.jsonl```.
